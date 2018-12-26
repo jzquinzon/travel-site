@@ -1,0 +1,19 @@
+/*the "_" in "_large-hero.ss" indicates that this is a partial file
+ meaing that this file will be imported to another file
+ */
+
+ .large-hero{
+     position: relative;
+ }
+
+ .large-hero__text-content {
+     position: absolute;
+     top: 50%;
+     transform: translateY(-50%);
+     left:0;
+     width: 100%;
+     text-align: center;
+
+
+     
+ }
