@@ -7,3 +7,12 @@ img {
     max-width: 100%;
     height: auto;
 }
+
+/* the * means select all elements on the page*/
+*{
+    box-sizing: border-box;/*to make sure padding is included in total size*/
+}
+
+a{
+    color: $mainOrange;
+}

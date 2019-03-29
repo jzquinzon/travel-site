@@ -1,0 +1,19 @@
+.generic-content-container{
+
+    /* targets any paragraph in container*/
+    p{
+        line-height: 1.65;
+        margin: 1.8rem 0;
+
+        @mixin atSmall{
+            font-size: 1.125rem;
+        }
+
+    }
+
+    /* descendant selector, for any a(links) in class p */
+    p a{
+        /*font-weight of 400 is standard*/
+        font-weight: 700;
+    }
+}
